@@ -1,4 +1,4 @@
-update=Mon 31 Mar 2014 11:13:43 AM PDT
+update=Wed 16 Apr 2014 10:16:31 PM PDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=/home/shaynal/Hermes-Lite/pcb/libs
+LibDir=libs
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+s<?xml version="1.0" encoding="utf-8"?>
 <export version="D">
     <design>
         <source>/home/shaynal/Hermes-Lite/pcb/ad9866.sch</source>
@@ -26,85 +26,85 @@
         </comp>
         <comp ref="C1">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4162</tstamp>
         </comp>
         <comp ref="C5">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4176</tstamp>
         </comp>
         <comp ref="C9">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4517</tstamp>
         </comp>
         <comp ref="C12">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE451D</tstamp>
         </comp>
         <comp ref="C2">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE452F</tstamp>
         </comp>
         <comp ref="C6">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4535</tstamp>
         </comp>
         <comp ref="C10">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4547</tstamp>
         </comp>
         <comp ref="C13">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE454D</tstamp>
         </comp>
         <comp ref="C3">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE456B</tstamp>
         </comp>
         <comp ref="C7">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4571</tstamp>
         </comp>
         <comp ref="C11">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4583</tstamp>
         </comp>
         <comp ref="C14">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE4589</tstamp>
         </comp>
         <comp ref="C4">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE45A7</tstamp>
         </comp>
         <comp ref="C8">
             <value>1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CE45AD</tstamp>
         </comp>
@@ -116,7 +116,7 @@
         </comp>
         <comp ref="C23">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CF8D73</tstamp>
         </comp>
@@ -152,19 +152,19 @@
         </comp>
         <comp ref="C24">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CFA092</tstamp>
         </comp>
         <comp ref="C28">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CFA0BA</tstamp>
         </comp>
         <comp ref="C29">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52CFA0CE</tstamp>
         </comp>
@@ -176,19 +176,19 @@
         </comp>
         <comp ref="C17">
             <value>1UF</value>
-            <libsource lib="device" part="CPSMALL"/>
+            <libsource lib="device" part="CPsmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D02145</tstamp>
         </comp>
         <comp ref="C19">
             <value>10UF</value>
-            <libsource lib="device" part="CPSMALL"/>
+            <libsource lib="device" part="CPsmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D0215C</tstamp>
         </comp>
         <comp ref="C15">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D02170</tstamp>
         </comp>
@@ -218,19 +218,19 @@
         </comp>
         <comp ref="C18">
             <value>1UF</value>
-            <libsource lib="device" part="CPSMALL"/>
+            <libsource lib="device" part="CPsmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D02D7A</tstamp>
         </comp>
         <comp ref="C20">
             <value>10UF</value>
-            <libsource lib="device" part="CPSMALL"/>
+            <libsource lib="device" part="CPsmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D02D80</tstamp>
         </comp>
         <comp ref="C16">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D02D86</tstamp>
         </comp>
@@ -254,13 +254,13 @@
         </comp>
         <comp ref="C27">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D1E6B8</tstamp>
         </comp>
         <comp ref="C30">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D1E6CC</tstamp>
         </comp>
@@ -272,7 +272,7 @@
         </comp>
         <comp ref="C21">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D1ED45</tstamp>
         </comp>
@@ -290,19 +290,19 @@
         </comp>
         <comp ref="C26">
             <value>0.1UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D4222F</tstamp>
         </comp>
         <comp ref="C22">
             <value>10UF</value>
-            <libsource lib="device" part="CPSMALL"/>
+            <libsource lib="device" part="CPsmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D42943</tstamp>
         </comp>
         <comp ref="C25">
             <value>10UF</value>
-            <libsource lib="device" part="CSMALL"/>
+            <libsource lib="device" part="Csmall"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>52D5AFCF</tstamp>
         </comp>

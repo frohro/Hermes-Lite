@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MEC6-140_CONNECTOR_BEMICRO
+F SCM_BeMicroSDK-A2-1.pdf
+$ENDCMP
+#
 #End Doc Library
