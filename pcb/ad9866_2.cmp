@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-03 BZR 4917)-product   date = Thu 12 Jun 2014 12:34:07 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Tue 17 Jun 2014 08:30:00 PM PDT
 
 BeginCmp
 TimeStamp = /52D02170;
@@ -71,8 +71,22 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53A113BB;
+Reference = C11;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52CE452F;
 Reference = C12;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A14B6A;
+Reference = C13;
 ValeurCmp = 0.1UF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
@@ -505,6 +519,13 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53A1352F;
+Reference = FB35;
+ValeurCmp = FB;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5368153F;
 Reference = P1;
 ValeurCmp = CONN_2;
@@ -530,13 +551,6 @@ TimeStamp = /53664851;
 Reference = P4;
 ValeurCmp = CONN_5X2;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D032B9;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
@@ -591,13 +605,6 @@ EndCmp
 BeginCmp
 TimeStamp = /52E012B5;
 Reference = PDVDD1;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /53684EF8;
-Reference = PGND1;
 ValeurCmp = CONN_1;
 IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
