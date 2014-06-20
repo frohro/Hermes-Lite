@@ -20,15 +20,15 @@
   )
 
   (layers
-    (15 F.Cu signal hide)
+    (15 F.Cu signal)
     (2 Inner2.Cu power hide)
     (1 Inner1.Cu power hide)
-    (0 B.Cu signal)
+    (0 B.Cu signal hide)
     (16 B.Adhes user hide)
     (17 F.Adhes user hide)
     (18 B.Paste user hide)
     (19 F.Paste user hide)
-    (20 B.SilkS user)
+    (20 B.SilkS user hide)
     (21 F.SilkS user hide)
     (22 B.Mask user)
     (23 F.Mask user)
