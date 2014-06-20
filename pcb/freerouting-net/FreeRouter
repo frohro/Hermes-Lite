@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# -- script to launch a local version of the freerouting.net autorouter
+#
+pushd $(dirname "${0}") > /dev/null
+basedir=$(pwd -L)
+popd > /dev/null
+java -Xmx1024m -jar "$basedir/freerouting-net.jar"

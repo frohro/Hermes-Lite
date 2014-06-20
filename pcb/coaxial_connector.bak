@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Coaxial_Connector
+#
+DEF Coaxial_Connector P 0 40 Y N 2 F N
+F0 "P" 225 150 60 H V C CNN
+F1 "Coaxial_Connector" 0 275 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 25 0 1 0 N
+C 0 0 106 0 1 0 N
+P 2 0 1 0  -25 0  -125 0 N
+X Center_Conductor 1 -200 0 79 R 50 50 1 1 P
+X Shield 2 0 -200 91 U 50 50 1 1 P
+X Center_Conductor 1 -200 0 79 R 50 50 2 1 P
+X Shield 2 0 -200 91 U 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

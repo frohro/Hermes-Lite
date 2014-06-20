@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si2301
+D Si2301CDS
+K P-Channel MOSFET
+F http://www.vishay.com/docs/68741/si2301cd.pdf
+$ENDCMP
+#
+#End Doc Library

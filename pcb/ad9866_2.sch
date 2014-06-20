@@ -29,13 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:si510
-LIBS:CDSOD323
-LIBS:25aa02e48
-LIBS:usb-mini-b
-LIBS:fb
-LIBS:si2301cds
-LIBS:coaxial_connector
 LIBS:ad9866_2-cache
 EELAYER 24 0
 EELAYER END

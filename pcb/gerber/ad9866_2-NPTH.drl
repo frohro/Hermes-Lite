@@ -1,0 +1,15 @@
+M48
+;DRILL file {pcbnew (2014-06-12 BZR 4942)-product} date Mon 16 Jun 2014 06:59:39 PM PDT
+;FORMAT={-:-/ absolute / inch / decimal}
+FMAT,2
+INCH,TZ
+T1C0.061
+%
+G90
+G05
+M72
+T1
+X5.6856Y-1.6535
+X6.7553Y-1.6535
+T0
+M30

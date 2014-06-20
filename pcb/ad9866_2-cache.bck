@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9866BCPZ
+F http://www.analog.com/static/imported-files/data_sheets/AD9866.pdf
+$ENDCMP
+#
+$CMP MEC6-140_CONNECTOR_BEMICRO
+D BeMicro SDK Connector
+F http://download.siliconexpert.com/pdfs/2013/3/18/4/33/21/233/arw_/manual/scm_bemicrosdk-a2-1.pdf
+$ENDCMP
+#
+#End Doc Library

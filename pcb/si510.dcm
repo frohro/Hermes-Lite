@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si510
+D Silicon Labs Oscillator
+K Si510
+F https://www.silabs.com/Support%20Documents/TechnicalDocs/si510-11.pdf
+$ENDCMP
+#
+#End Doc Library

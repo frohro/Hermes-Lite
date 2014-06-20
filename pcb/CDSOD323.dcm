@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDSOD323
+D CDSOD323
+K SCHOTTKY PROTECTION DIODE
+F http://www.bourns.com/data/global/pdfs/cdsod323-txxc.pdf
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
