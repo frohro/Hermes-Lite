@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Tue 17 Jun 2014 08:30:00 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Fri 20 Jun 2014 08:14:53 AM PDT
 
 BeginCmp
 TimeStamp = /52D02170;
@@ -148,6 +148,13 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53A4595F;
+Reference = C22;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D42943;
 Reference = C23;
 ValeurCmp = 10UF;
@@ -164,6 +171,13 @@ EndCmp
 BeginCmp
 TimeStamp = /52CFA092;
 Reference = C25;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A45C9A;
+Reference = C26;
 ValeurCmp = 0.1UF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
@@ -255,6 +269,20 @@ EndCmp
 BeginCmp
 TimeStamp = /53745463;
 Reference = C39;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A46796;
+Reference = C40;
+ValeurCmp = 0.1UF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47C29;
+Reference = C41;
 ValeurCmp = 0.1UF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
@@ -523,6 +551,34 @@ TimeStamp = /53A1352F;
 Reference = FB35;
 ValeurCmp = FB;
 IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A45E06;
+Reference = FB36;
+ValeurCmp = FB;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A45E95;
+Reference = FB37;
+ValeurCmp = FB;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A466FB;
+Reference = FB38;
+ValeurCmp = FB;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A47D88;
+Reference = FB39;
+ValeurCmp = FB;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
