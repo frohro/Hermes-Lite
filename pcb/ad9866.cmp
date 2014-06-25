@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-02 BZR 4600)-product date = Wed 22 Jan 2014 09:02:15 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Tue 24 Jun 2014 11:36:12 PM PDT
 
 BeginCmp
 TimeStamp = /52CE4162;
@@ -218,13 +218,6 @@ IdModule  = BEMICRO:MEC6-140-02-X-D-RAX;
 EndCmp
 
 BeginCmp
-TimeStamp = /52DB0ACA;
-Reference = CN2;
-ValeurCmp = PCIE;
-IdModule  = Connect:PCI-EXPRESS;
-EndCmp
-
-BeginCmp
 TimeStamp = /52D1E6E0;
 Reference = D1;
 ValeurCmp = CDSOD323;
@@ -260,38 +253,10 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52DB58F9;
+TimeStamp = /53AA8996;
 Reference = P1;
-ValeurCmp = CONN_4;
-IdModule  = Connect:SIL-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DB7144;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DB77C7;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DB7130;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DB58D1;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -341,27 +306,6 @@ TimeStamp = /52D1F475;
 Reference = P15;
 ValeurCmp = Si510 73.728;
 IdModule  = SILABS:Si510;
-EndCmp
-
-BeginCmp
-TimeStamp = /52CF90CB;
-Reference = P16;
-ValeurCmp = CONN_3X2;
-IdModule  = DIPSWITCH:DIPSWITCH;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D7694A;
-Reference = P17;
-ValeurCmp = CONN_4;
-IdModule  = Connect:SIL-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DB63C0;
-Reference = P18;
-ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
@@ -417,27 +361,6 @@ BeginCmp
 TimeStamp = /52CF8B35;
 Reference = R2;
 ValeurCmp = 1.6K;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52CF9533;
-Reference = R3;
-ValeurCmp = 10K;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52CF951A;
-Reference = R4;
-ValeurCmp = 10K;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52CF9501;
-Reference = R5;
-ValeurCmp = 10K;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
