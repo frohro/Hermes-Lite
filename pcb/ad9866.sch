@@ -458,63 +458,6 @@ $EndComp
 Text GLabel 4700 1750 0    60   Input ~ 0
 DVDD
 $Comp
-L CONN_3X2 P16
-U 1 1 52CF90CB
-P 4800 800
-F 0 "P16" H 4800 1050 50  0000 C CNN
-F 1 "CONN_3X2" V 4800 850 40  0000 C CNN
-F 2 "" H 4800 800 60  0000 C CNN
-F 3 "" H 4800 800 60  0000 C CNN
-	1    4800 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 52CF9501
-P 5900 850
-F 0 "R5" V 5980 850 40  0000 C CNN
-F 1 "10K" V 5907 851 40  0000 C CNN
-F 2 "" V 5830 850 30  0000 C CNN
-F 3 "" H 5900 850 30  0000 C CNN
-	1    5900 850 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R4
-U 1 1 52CF951A
-P 5900 750
-F 0 "R4" V 5980 750 40  0000 C CNN
-F 1 "10K" V 5907 751 40  0000 C CNN
-F 2 "" V 5830 750 30  0000 C CNN
-F 3 "" H 5900 750 30  0000 C CNN
-	1    5900 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R3
-U 1 1 52CF9533
-P 5900 650
-F 0 "R3" V 5980 650 40  0000 C CNN
-F 1 "10K" V 5907 651 40  0000 C CNN
-F 2 "" V 5830 650 30  0000 C CNN
-F 3 "" H 5900 650 30  0000 C CNN
-	1    5900 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR016
-U 1 1 52CF9C14
-P 6350 800
-F 0 "#PWR016" H 6350 800 30  0001 C CNN
-F 1 "GND" H 6350 730 30  0001 C CNN
-F 2 "" H 6350 800 60  0000 C CNN
-F 3 "" H 6350 800 60  0000 C CNN
-	1    6350 800 
-	1    0    0    -1  
-$EndComp
-Text GLabel 4400 750  0    60   Input ~ 0
-DVDD
-$Comp
 L GND #PWR017
 U 1 1 52CF9F6A
 P 9100 2050
@@ -1037,17 +980,6 @@ Text GLabel 3900 1850 0    60   Input ~ 0
 SEN
 Text GLabel 3900 2050 0    60   Input ~ 0
 SCLK
-$Comp
-L AD9866BCPZ U1
-U 1 1 52CB8653
-P 5500 1350
-F 0 "U1" H 5500 1350 60  0000 C BNN
-F 1 "AD9866BCPZ" H 5500 1350 60  0000 C CNN
-F 2 "" H 5500 1350 60  0000 C CNN
-F 3 "" H 5500 1350 60  0000 C CNN
-	1    5500 1350
-	1    0    0    -1  
-$EndComp
 Text GLabel 9550 1150 2    60   Input ~ 0
 SDIO
 Text GLabel 9550 1550 2    60   Input ~ 0
@@ -1272,28 +1204,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1750 5500 1750
 Wire Wire Line
-	5200 850  5650 850 
-Wire Wire Line
-	5400 1450 5500 1450
-Wire Wire Line
-	5200 750  5650 750 
-Wire Wire Line
-	5500 1650 5300 1650
-Wire Wire Line
-	5300 1650 5300 650 
-Wire Wire Line
-	5200 650  5650 650 
-Connection ~ 5300 650 
-Wire Wire Line
-	6150 650  6150 850 
-Connection ~ 6150 750 
-Wire Wire Line
-	6150 750  6350 750 
-Wire Wire Line
-	6350 750  6350 800 
-Wire Wire Line
-	4400 650  4400 850 
-Connection ~ 4400 750 
+	4250 1650 5500 1650
 Wire Wire Line
 	9100 2050 9100 1950
 Wire Wire Line
@@ -1697,12 +1608,6 @@ Wire Wire Line
 	1700 1950 1350 1950
 Wire Wire Line
 	1350 1950 1350 1900
-Wire Wire Line
-	5500 1350 5500 750 
-Connection ~ 5500 750 
-Wire Wire Line
-	5400 1450 5400 850 
-Connection ~ 5400 850 
 $Comp
 L CONN_1 P14
 U 1 1 52DE079B
@@ -1799,15 +1704,15 @@ F 3 "" H 3000 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	650  2100 650  7450
+	650  7450 650  2100
 Wire Wire Line
 	700  2200 700  7400
 Wire Wire Line
-	750  2300 750  7350
+	750  7350 750  2300
 Wire Wire Line
 	800  2500 800  7300
 Wire Wire Line
-	850  2600 850  7250
+	850  7250 850  2600
 Wire Wire Line
 	900  2700 900  7200
 Wire Wire Line
@@ -1986,4 +1891,36 @@ F 3 "" H 1800 6300 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 NoConn ~ 8900 1650
+$Comp
+L GND #PWR?
+U 1 1 53AA61C3
+P 4250 1700
+F 0 "#PWR?" H 4250 1700 30  0001 C CNN
+F 1 "GND" H 4250 1630 30  0001 C CNN
+F 2 "" H 4250 1700 60  0000 C CNN
+F 3 "" H 4250 1700 60  0000 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1650 4250 1700
+Connection ~ 5300 1650
+Wire Wire Line
+	5500 1450 5300 1450
+Wire Wire Line
+	5300 1350 5300 1650
+Wire Wire Line
+	5500 1350 5300 1350
+Connection ~ 5300 1450
+$Comp
+L AD9866BCPZ U1
+U 1 1 52CB8653
+P 5500 1350
+F 0 "U1" H 5500 1350 60  0000 C BNN
+F 1 "AD9866BCPZ" H 5500 1350 60  0000 C CNN
+F 2 "" H 5500 1350 60  0000 C CNN
+F 3 "" H 5500 1350 60  0000 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
