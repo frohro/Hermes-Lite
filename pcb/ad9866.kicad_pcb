@@ -3,7 +3,7 @@
   (general
     (links 170)
     (no_connects 2)
-    (area 100.649999 83.399999 149.550001 125.350001)
+    (area 100.649999 81.50265 162.464501 126.6142)
     (thickness 1.6)
     (drawings 15)
     (tracks 656)
@@ -68,7 +68,7 @@
     (grid_origin 121.225 124.7)
     (visible_elements FFFEFF7F)
     (pcbplotparams
-      (layerselection 268959744)
+      (layerselection 284983303)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../beamforming/kicad/oshstencil/))
+      (outputdirectory gerber_kf7o/))
   )
 
   (net 0 "")
