@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Tue 24 Jun 2014 11:36:12 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-06-12 BZR 4942)-product   date = Thu 26 Jun 2014 11:30:45 AM PDT
 
 BeginCmp
 TimeStamp = /52CE4162;
@@ -330,24 +330,24 @@ IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D6C777;
+TimeStamp = /53AC6A3D;
 Reference = P23;
-ValeurCmp = CONN_5;
-IdModule  = SMA:SMA;
+ValeurCmp = CONN_2;
+IdModule  = SMA_EDGE:SMA_EDGE;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D6C8B5;
+TimeStamp = /53AC66E8;
 Reference = P24;
-ValeurCmp = CONN_5;
-IdModule  = SMA:SMA;
+ValeurCmp = CONN_2;
+IdModule  = SMA_EDGE:SMA_EDGE;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D6CA0C;
+TimeStamp = /53AC7360;
 Reference = P25;
-ValeurCmp = CONN_5;
-IdModule  = SMA:SMA;
+ValeurCmp = CONN_2;
+IdModule  = SMA_EDGE:SMA_EDGE;
 EndCmp
 
 BeginCmp
