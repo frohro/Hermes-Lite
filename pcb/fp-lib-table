@@ -8,4 +8,5 @@
   (lib (name DIPSWITCH)(type KiCad)(uri ${KIPRJMOD}/libs/dipswitch.pretty)(options "")(descr ""))
   (lib (name BEMICRO)(type KiCad)(uri ${KIPRJMOD}/libs/bemicroconnector.pretty)(options "")(descr ""))
   (lib (name OPCIE)(type Legacy)(uri ${KIPRJMOD}/libs/epcie.mod)(options "")(descr ""))
+  (lib (name SMA_EDGE)(type KiCad)(uri ${KIPRJMOD}/libs/SMA_EDGE.mod)(options "")(descr ""))
 )
