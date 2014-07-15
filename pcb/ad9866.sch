@@ -31,8 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:ad9866c
 LIBS:ad9866
-LIBS:transf_minickts
-LIBS:con-pci_express(pci-e)
 LIBS:ad9866-cache
 EELAYER 24 0
 EELAYER END
@@ -1751,7 +1749,6 @@ F 3 "" H 1550 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4150 3600
-NoConn ~ 3750 2050
 Text GLabel 1350 1600 0    60   Input ~ 0
 SEN
 Text GLabel 1350 1700 0    60   Input ~ 0
